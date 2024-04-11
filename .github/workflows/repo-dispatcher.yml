@@ -26,6 +26,10 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
+
+matrix:
+ target: meson_meson8b
+
   build:
     runs-on: Ubuntu-22.04
     steps:
